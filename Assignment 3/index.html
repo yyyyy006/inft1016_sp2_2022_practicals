@@ -4,26 +4,44 @@
 <head>
     <meta charset="utf-8">
     <title>My page title</title>
-    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="css/base.css">
     <script></script>
 </head>
 
 <body>
-    <header>
-        <h1>Header</h1> <button onclick="">Toggle Theme</button>
-    </header>
+
+
     <nav>
-        <ul>
+        <ul class="nav">
             <li><a href="#">Home</a></li>
             <li><a href="#">Our team</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">Contact</a></li>
+            <button onclick="Darknlight()" class="dnl">Light</button>
+
         </ul>
-        <form> <input type="text" name="user_name" placeholder="Enter your name!"> <button type="submit">Apply!</button>
-        </form>
+
+
+
+        <div class="form-box">
+            <form class="form">
+                <input type="text" name="user_name" class="form-control" placeholder="Enter your name!">
+                <button type="submit" class="apply">Apply!</button>
+            </form>
+        </div>
+
     </nav>
+
+    <header class="header">
+        <h1>Header</h1>
+
+
+    </header>
+
+
     <main>
-        <article>
+
+        <article class="article">
             <h2>Article heading</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris.
                 Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et
@@ -44,7 +62,9 @@
                 convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis
                 velit, is fringille sem nunc vet mi.</p>
         </article>
-        <aside>
+
+
+        <aside clase="aside">
             <h2>Related</h2>
             <ul>
                 <li><a href="#">Oh I do like to be beside the seaside</a></li>
@@ -54,10 +74,16 @@
                 <li><a href="#">Oh well...</a></li>
             </ul>
         </aside>
+
     </main>
-    <footer>
+
+
+    <footer class="">
         <p>©️Copyright 2050 by nobody. All rights reversed.</p>
     </footer>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
