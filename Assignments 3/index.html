@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" data-theme="light">
 
 <head>
-    <meta charset="utf-8">
-    <title>My page title</title>
-    <link rel="stylesheet" href="css/base.css">
-    <script></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Assignment 3 </title>
 </head>
 
 <body>
-
 
     <nav>
         <ul class="nav">
@@ -17,71 +17,91 @@
             <li><a href="#">Our team</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">Contact</a></li>
-            <button onclick="Darknlight()" class="dnl">Light</button>
-
         </ul>
-
-
-
-        <div class="form-box">
-            <form class="form">
-                <input type="text" name="user_name" class="form-control" placeholder="Enter your name!">
-                <button type="submit" class="apply">Apply!</button>
-            </form>
-        </div>
 
     </nav>
 
-    <header class="header">
-        <h1>Header</h1>
-
-
-    </header>
 
 
     <main>
+        <div class="container">
+            <h1 id="result"></h1>
+            <div class="toggle-container">
+                <input type="checkbox" id="switch" /><label for="switch">Toggle</label>
+            </div>
+            <p>Section partners with university students in Computer
+                Science related fields of study to research and write about topics that are relevant to
+                engineers in the modern technology landscape. You can find more information and program
+                guidelines in the GitHub repository. If you're currently enrolled in a Computer Science
+                related field of study and are interested in participating in the program,
+                please complete the registration form by clciking this link,
 
-        <article class="article">
-            <h2>Article heading</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris.
-                Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et
-                diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia
-                consectetur.</p>
-            <h3>Subsection</h3>
-            <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.
+                or check out section on Github <a
+                    href="https://github.com/yyyyy006/inft1016_sp2_2022_practicals">Section</a>
             </p>
-            <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra
-                tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.
-            </p>
-            <h3>Another subsection</h3>
-            <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis
-                parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem
-                facilisis semper ac in est.</p>
-            <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas
-                convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis
-                velit, is fringille sem nunc vet mi.</p>
-        </article>
 
+            <div class="flex">
+                <input type="text" name="" id="name" placeholder="Enter your name!">
+                <button type="submit" id="submitButton" class="button">Save</button>
+                <button type="submit" id="deleteButton" class="button">Clear</button>
+            </div>
+        </div>
 
-        <aside clase="aside">
-            <h2>Related</h2>
-            <ul>
-                <li><a href="#">Oh I do like to be beside the seaside</a></li>
-                <li><a href="#">Oh I do like to be beside the sea</a></li>
-                <li><a href="#">Although in the North of England</a></li>
-                <li><a href="#">It never stops raining</a></li>
-                <li><a href="#">Oh well...</a></li>
-            </ul>
-        </aside>
+        <div class="flex">
+            <div class="button-image">
+                <button class="btn-img" onClick="btn1()">Pardalote</button>
+                <button class="btn-img" onClick="btn2()">Swamp</button>
+                <button class="btn-img" onClick="btn3()">Stilt</button>
+                <button class="btn-img" onClick="btn4()">Thornbill</button>
+                <button class="btn-img" onClick="btn5()">Robin</button>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <div id="first">
+                <img src="img/bird00.jpg" class="card-img-top" alt="bird00">
+
+                <div class="card-body">
+                    <p class="card-text text-center">Pardalote by fir0002 (CC-by-NC)
+                    </p>
+                </div>
+            </div>
+            <div id="second">
+                <img src="img/bird01.jpg" class="card-img-top" alt="bird01">
+                <div class="card-body">
+                    <p class="card-text text-center">Purple swamp hen by Toby Hudson (CC-by-SA)
+                    </p>
+                </div>
+            </div>
+            <div id="third">
+                <img src="img/bird02.jpg" class="card-img-top" alt="bird02">
+                <div class="card-body">
+                    <p class="card-text text-center">White-headed Stilt by JJ Harrison (CC-by-SA)
+                    </p>
+                </div>
+            </div>
+            <div id="fourth">
+                <img src="img/bird03.jpg" class="card-img-top" alt="bird03">
+                <div class="card-body">
+                    <p class="card-text text-center">Inland Thornbill by Peter Jacobs (CC-by-SA)</p>
+                </div>
+            </div>
+            <div id="five">
+                <img src="img/bird04.jpg" class="card-img-top" alt="bird04">
+                <div class="card-body">
+                    <p class="card-text text-center">Rose Robin by JJ Harrison (CC-by-SA)</p>
+                </div>
+            </div>
+        </div>
+
 
     </main>
 
 
-    <footer class="">
-        <p>©️Copyright 2050 by nobody. All rights reversed.</p>
-    </footer>
 
+    <footer>
+        <p class="footer-text">©️Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
