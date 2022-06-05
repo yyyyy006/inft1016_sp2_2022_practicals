@@ -7,11 +7,11 @@ This Webpage is a cool and awesome Website that has One of the most trendy and u
 
 _The webpage is a single page website Also has a Unique Navigation and Footer_.
 
-This webpage has a input box where user can enter name and it will display the name enter and store on localstorage, it also has a button to clear the box should incase there's need
+This webpage has a input box where user can enter there name and it will display the name enter and store on localstorage, it also has a button to clear the input box should incase there's need.
 
-👇 It also has a five Cool buttons that when user click any of the buttons its show the picture of the Bird and the Author Awesome right? 👇
+👇 It also has a five Cool buttons that when user click any of the buttons its show the picture of a particular Bird and the Author. 👇
 
-They are alot to explore when you visit the webpage https://github.com/yyyyy006/inft1016_sp2_2022_practicals
+They are alot to explore when you visit the webpage Here is the repo  https://github.com/yyyyy006/inft1016_sp2_2022_practicals
 
 
 
