@@ -65,3 +65,45 @@ window.onload = function () {
 
   btn1();
 };
+
+
+// Functions that display the images to the corresponding button and update the paragraph aswell
+
+const btn1 = () => {
+  document.getElementById("first").style.display = "block";
+  document.getElementById("second").style.display = "none";
+  document.getElementById("third").style.display = "none";
+  document.getElementById("fourth").style.display = "none";
+  document.getElementById("five").style.display = "none";
+};
+
+const btn2 = () => {
+  document.getElementById("second").style.display = "block";
+  document.getElementById("first").style.display = "none";
+  document.getElementById("third").style.display = "none";
+  document.getElementById("fourth").style.display = "none";
+  document.getElementById("five").style.display = "none";
+};
+
+const btn3 = () => {
+  document.getElementById("third").style.display = "block";
+  document.getElementById("first").style.display = "none";
+  document.getElementById("second").style.display = "none";
+  document.getElementById("fourth").style.display = "none";
+  document.getElementById("five").style.display = "none";
+};
+const btn4 = () => {
+  document.getElementById("fourth").style.display = "block";
+  document.getElementById("third").style.display = "none";
+  document.getElementById("first").style.display = "none";
+  document.getElementById("second").style.display = "none";
+  document.getElementById("five").style.display = "none";
+};
+const btn5 = () => {
+  document.getElementById("five").style.display = "block";
+  document.getElementById("fourth").style.display = "none";
+  document.getElementById("third").style.display = "none";
+  document.getElementById("first").style.display = "none";
+  document.getElementById("second").style.display = "none";
+};
+
